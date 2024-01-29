@@ -33,4 +33,7 @@
       - XTurner 心理数据微调
       - LMDeploy 模型部署
       - Opencompass 模型评测
+      
+### Lagent 大模型智能体搭建
+[Lagent](https://github.com/InternLM/InternLM/blob/main/agent/lagent_zh-CN.md) 
 
