@@ -43,6 +43,18 @@
     # 下载模型
        os.system('huggingface-cli download --resume-download sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 --local-dir /home/zhanghui/models/sentence-transformer')
 
-### Lagent 大模型智能体搭建
+#### 数据收集
+     https://openxlab.org.cn/datasets/Scchy/LLM-Data 
+     这个数据集下载方案：
+     import os
+     from openxlab.dataset import download
+
+     load_d = '/home/xlab-app-center/data'
+     out_f =  f'{load_d}/Scchy___LLM-Data/cookingBook.json'
+     if not os.path.exists(out_f):
+     download(dataset_repo='Scchy/LLM-Data', source_path='cookingBook.json', target_path=load_d)
+     
+
+#### Lagent 大模型智能体搭建
 [Lagent](https://github.com/InternLM/InternLM/blob/main/agent/lagent_zh-CN.md) 
 
