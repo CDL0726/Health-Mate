@@ -7,6 +7,8 @@
 
 备注：优秀的项目将会被推荐到更高 Level 的书生·浦语大模型挑战赛，提交简单的书生·浦语相关项目申请后，可获得 2 月 7 日——2 月 27 日 至少单卡 A100 的比赛项目算力支持。
 
+![](https://github.com/CDL0726/Health-Mate/blob/img/Repo.jpg)  
+
 # **整体实训营项目大作业**  
 
 # AI健康伴侣 Health-Mate
