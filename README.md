@@ -14,6 +14,7 @@
 [开源代码](https://open-compass.github.io/T-Eval/)  
 [项目主页](open-compass.github.io/T-Eval)  
 [论文](arxiv.org/abs/2312.14033)  
+
       
 #### 模型下载 Huggingface
       import os
