@@ -5,10 +5,15 @@
 ### 项目介绍  
    GenAI赋能，解读用户的健康密码，根据个性化的数据，生成易懂化的解读，为家庭健康决策人提供全寿命周期的健康管理大语言模型智能体，成为陪伴用户一生的健康伴侣。
    
-### 模型主要功能：  
+### 大模型智能体主要功能：  
   - 慢病管理
   - 健康管理  
 
+### 模型工具
+[InternLM2](https://github.com/InternLM/InternLM)    [Lagent](https://github.com/InternLM/lagent)  
+[开源代码](https://open-compass.github.io/T-Eval/)  
+[项目主页](open-compass.github.io/T-Eval)  
+[论文](arxiv.org/abs/2312.14033)  
       
 #### 模型下载 Huggingface
       import os
@@ -33,4 +38,7 @@
 
 #### Lagent 大模型智能体搭建
 [Lagent](https://github.com/InternLM/InternLM/blob/main/agent/lagent_zh-CN.md) 
+
+
+
 
