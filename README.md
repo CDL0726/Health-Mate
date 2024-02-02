@@ -44,7 +44,8 @@ InternStudio 平台的 `share` 目录下已经为我们准备了全系列的 `In
 #### 4.4 修改代码  
 由于代码修改的地方比较多，大家直接将 `/root/code/lagent/examples/react_web_demo.py` 内容替换为以下代码  
 
-[lagent/examples/internlm2_agent_web_demo.py](examples/internlm2_agent_web_demo.py)  
+[lagent/examples/internlm2_agent_web_demo.py](https://github.com/InternLM/lagent/blob/main/examples/internlm2_agent_web_demo.py)    
+
 `
 
 
