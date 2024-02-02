@@ -39,7 +39,7 @@ InternStudio 平台的 `share` 目录下已经为我们准备了全系列的 `In
 首先切换路径到 `/root/code` 克隆 `lagent` 仓库，并通过 `pip install -e .` 源码安装 `Lagent2`  
 
         cd /root/code  
-        pip install lagent  
+        pip install lagent streamlit  -U 
                
 #### 4.4 修改代码  
 由于代码修改的地方比较多，大家直接将 `/root/code/lagent/examples/react_web_demo.py` 内容替换为以下代码  
