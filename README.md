@@ -46,6 +46,21 @@ InternStudio 平台的 `share` 目录下已经为我们准备了全系列的 `In
 
 [lagent/examples/internlm2_agent_web_demo.py](https://github.com/InternLM/lagent/blob/main/examples/internlm2_agent_web_demo.py)    
 
+#### 4.5 运行一个智能体的网页样例  
+你可能需要先安装 Streamlit 包
+
+```bash
+# pip install streamlit
+streamlit run examples/internlm2_agent_web_demo.py
+```
+```
+streamlit run /root/code/lagent/examples/react_web_demo.py --server.address 127.0.0.1 --server.port 6006
+```
+将 `port 6066` 修改为开发机对应的SSH号 `35188` (每个开发机的号不一样）
+
+
+
+
 `
 
 
