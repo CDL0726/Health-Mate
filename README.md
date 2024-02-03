@@ -54,10 +54,11 @@ InternStudio 平台的 `share` 目录下已经为我们准备了全系列的 `In
  ![](https://github.com/CDL0726/Health-Mate/blob/main/revise1.png)  
  
 
- 4.4.1.2 然后运行 `/root/.conda/envs/internlm/lib/python3.10/site-packages/lagent/llms/base_llm.py`    
+ 4.4.1.2 然后运行 `'/root/.conda/envs/internlm/lib/python3.10/site-packages/lagent/llms/base_llm.py'`    
  注：这个地方envs后面的internlm是conda环境名称，找一下自己的conda环境名字叫什么，替换一下
  
- 4.4.1.3 然后改一下BaseModel类里面的这一段，加上红框里面这两行  
+ 4.4.1.3 激活自己的 `conda env` 环境   
+ 然后改一下BaseModel类里面的这一段，加上红框里面这两行  
  ![](https://github.com/CDL0726/Health-Mate/blob/main/revise2.png)  
 
  
