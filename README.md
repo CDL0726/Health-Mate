@@ -46,17 +46,21 @@ InternStudio 平台的 `share` 目录下已经为我们准备了全系列的 `In
 
 [lagent/examples/internlm2_agent_web_demo.py](https://github.com/InternLM/lagent/blob/main/examples/internlm2_agent_web_demo.py)    
 
+##### 4.4.1 进一步修改  
  `/root/code/lagent/examples/react_web_demo.py`用上面的代码替换后的代码修改如下：  
  
  120行model_name前面增加一行模型存放地址的参数  
- `/root/data/model/Shanghai_AI_Laboratory/internlm2-chat-20b',`
-
- 然后运行 `/root/.conda/envs/internlm/lib/python3.10/site-packages/lagent/llms/base_llm.py` 这个地方envs后面的internlm是conda环境名称，找一下自己的conda环境名字叫什么，替换一下
- 
- 然后改一下BaseModel类里面的这一段，加上红框里面这两行
- ！ 
+ `/root/data/model/Shanghai_AI_Laboratory/internlm2-chat-20b',` 如下图：  
+ ![](https://github.com/CDL0726/Health-Mate/blob/main/revise1.png)  
  
 
+ 然后运行 `/root/.conda/envs/internlm/lib/python3.10/site-packages/lagent/llms/base_llm.py` 
+ 注：这个地方envs后面的internlm是conda环境名称，找一下自己的conda环境名字叫什么，替换一下
+ 
+ 然后改一下BaseModel类里面的这一段，加上红框里面这两行  
+ ![](https://github.com/CDL0726/Health-Mate/blob/main/revise2.png)  
+
+ 
 #### 4.5 运行一个智能体的网页样例  
 你可能需要先安装 Streamlit 包
 
