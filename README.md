@@ -87,10 +87,14 @@ lmdeploy serve api_server /root/internlm-demo/internlm2-chat-20b/workspace_w4a16
 	--tp 1
 ```
 `  
+#### 智能体竞品
+- 智浦清言
+- GPTs
 
-#### Lagent 大模型智能体搭建
+#### Lagent大模型智能体 进一步研究
 [Lagent](https://github.com/InternLM/InternLM/blob/main/agent/lagent_zh-CN.md) 
-
+- 插件如何建立与调用
+- 上传的文件格式拓展：图片 视频
 ---
 ### 特别鸣谢  
 - 上海人工智能实验室 A100算力支持
