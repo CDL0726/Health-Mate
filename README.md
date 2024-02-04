@@ -93,6 +93,7 @@ lmdeploy serve api_server /root/internlm-demo/internlm2-chat-20b/workspace_w4a16
 
 ---
 ### 特别鸣谢  
+- 上海人工智能实验室 A100算力支持
 - 书生·浦语大模型实战营
 - 浦语小助手
 - 银佳助教
