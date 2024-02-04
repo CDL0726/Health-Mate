@@ -80,17 +80,13 @@ ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 33090
 ```
 在本地终端输入以下指令 `.6006` 是在服务器中打开的端口，而 `33090` 是根据开发机的端口进行更改。
 
-
-
-`
-
-
-
-
-        
-        
-
-     
+```
+lmdeploy serve api_server /root/internlm-demo/internlm2-chat-20b/workspace_w4a16_kvcache \
+	--server-name 0.0.0.0 \
+	--server-port 23333 \
+	--tp 1
+```
+`  
 
 #### Lagent 大模型智能体搭建
 [Lagent](https://github.com/InternLM/InternLM/blob/main/agent/lagent_zh-CN.md) 
@@ -100,7 +96,6 @@ ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 33090
 - 书生·浦语大模型实战营
 - 浦语小助手
 - 银佳助教
-- 书生·浦语大模型实战营 22班 房宇亮 方烁 同学
 
 
 
