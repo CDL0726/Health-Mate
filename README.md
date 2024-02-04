@@ -94,7 +94,7 @@ lmdeploy serve api_server /root/internlm-demo/internlm2-chat-20b/workspace_w4a16
 [慢病管理 - CVD]()  
 [健康管理 - 心理咨询]()
 
-### 6. 智能体同类产品
+### 6. 智能体工具市场上的同类产品
 [智谱清言](https://chatglm.cn/main/detail)  
 ![](https://github.com/CDL0726/Health-Mate/blob/main/agent2.png)    
 [BeBe GPT Store](https://www.glbai.com/) 
