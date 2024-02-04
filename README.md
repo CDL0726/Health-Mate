@@ -72,7 +72,13 @@ streamlit run examples/internlm2_agent_web_demo.py
 ```
 streamlit run /root/code/lagent/examples/react_web_demo.py --server.address 127.0.0.1 --server.port 6006
 ```
-
+#### 4.6 配置本地端口  
+```
+ssh-keygen -t rsa
+cat ~\.ssh\id_rsa.pub
+ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 33090
+```
+在本地终端输入以下指令 `.6006` 是在服务器中打开的端口，而 `33090` 是根据开发机的端口进行更改。
 
 
 
