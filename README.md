@@ -89,16 +89,20 @@ lmdeploy serve api_server /root/internlm-demo/internlm2-chat-20b/workspace_w4a16
 #### 4.6 智能体的网页样例图  
 ![](https://github.com/CDL0726/Health-Mate/blob/main/agent1.png)   
 
-### 5 智能体竞品
+### 5. Agent实际应用  
+[慢病管理 - CVD]()  
+[健康管理 - 心理咨询]()
+
+### 6. 智能体竞品
 - 智浦清言
 - GPTs
 
-### 6 Lagent大模型智能体 进一步研究
+### 7. Lagent大模型智能体 进一步研究
 [Lagent](https://github.com/InternLM/InternLM/blob/main/agent/lagent_zh-CN.md) 
 - 插件如何建立与调用
 - 上传的文件格式拓展：图片 视频
 ---
-### 7 特别鸣谢  
+### 8. 特别鸣谢  
 - 上海人工智能实验室 A100算力支持
 - 书生·浦语大模型实战营
 - 浦语小助手
