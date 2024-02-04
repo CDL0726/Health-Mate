@@ -1,10 +1,9 @@
-# HealthcareAgent 
+# HealthcareAgent 全寿命周期健康管理 智能体
 
 ![](https://github.com/CDL0726/Health-Mate/blob/main/agent3.png)  
 
 ### 1. 项目介绍 
-##### 全寿命周期健康管理智能体    
-   GenAI赋能，解读用户的健康密码，根据个性化的数据，生成易懂化的解读，为家庭健康决策人提供全寿命周期的健康管理大语言模型智能体，成为陪伴用户一生的健康伴侣。
+GenAI赋能，解读用户的健康密码，根据个性化的数据，生成易懂化的解读，为家庭健康决策人提供全寿命周期的健康管理大语言模型智能体，成为陪伴用户一生的健康伴侣。
    
 ### 2. HealthcareAgent 主要功能：  
   - 慢病管理
@@ -105,6 +104,8 @@ lmdeploy serve api_server /root/internlm-demo/internlm2-chat-20b/workspace_w4a16
 - 插件如何建立与调用
 - 智能体如何与微信互动
 - 智能体如何自动发邮件
+  
+    `本次是小组成员探索实践，等Lagent课件与视屏出来后，可进一步优化`
 ---
 ### 8. 特别鸣谢  
 - 上海人工智能实验室 A100算力支持
