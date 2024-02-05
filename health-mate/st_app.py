@@ -6,7 +6,6 @@ import os
 import streamlit as st
 
 from lagent.actions import ActionExecutor, ArxivSearch,  IPythonInterpreter, FinishAction, PythonInterpreter
-from langchain.agents import AgentType, initialize_agent
 
 from lagent.agents.internlm2_agent import INTERPRETER_CN, META_CN, PLUGIN_CN, Internlm2Agent, Internlm2Protocol
 from lagent.llms.lmdepoly_wrapper import LMDeployClient
