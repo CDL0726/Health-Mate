@@ -50,7 +50,7 @@ InternStudio 平台的 `share` 目录下已经为我们准备了全系列的 `In
  `/root/code/lagent/examples/react_web_demo.py`用上面的代码替换后的代码修改如下：  
  
  4.4.1.1 120行model_name前面增加一行模型存放地址的参数  
- `/root/data/model/Shanghai_AI_Laboratory/internlm2-chat-20b',` 如下图：  
+ `/root/data/model/Shanghai_AI_Laboratory/internlm2-chat-20b`, 如下图：  
  ![](https://github.com/CDL0726/Health-Mate/blob/main/revise1.png)  
  
 
