@@ -32,8 +32,8 @@ GenAI赋能，解读用户的健康密码，根据个性化的数据，生成易
 #### 4.2 模型下载  
 InternStudio 平台的 `share` 目录下已经为我们准备了全系列的 `InternLM` 模型，所以我们可以直接复制即可。使用如下命令复制： 
          
-         mkdir -p /root/model/Shanghai_AI_Laboratory
-         cp -r /root/share/model_repos/internlm2-chat-20b /root/model/Shanghai_AI_Laboratory   
+         mkdir -p /root/data/model/Shanghai_AI_Laboratory
+         cp -r /root/share/model_repos/internlm2-chat-20b /root/data/model/Shanghai_AI_Laboratory   
   
 #### 4.3 Lagent2 安装  
 首先切换路径到 `/root/code` 克隆 `lagent` 仓库，并通过 `pip install -e .` 源码安装 `Lagent2`  
