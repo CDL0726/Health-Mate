@@ -1,4 +1,4 @@
-# HealthcareAgent 全寿命周期健康管理 智能体
+# HealthcareAgent 全生命周期健康管理 智能体
 
 ![](https://github.com/CDL0726/Health-Mate/blob/main/agent3.png)  
 
