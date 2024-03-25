@@ -1,4 +1,4 @@
-# HealthcareAgent 全生命周期健康管理 智能体
+# HealthcareAgent 医疗保健智能体
 
 ![](https://github.com/CDL0726/Health-Mate/blob/main/agent3.png)  
 
@@ -91,7 +91,6 @@ lmdeploy serve api_server /root/internlm-demo/internlm2-chat-20b/workspace_w4a16
 
 ### 5. Agent实际应用  
 [慢病管理 - CVD]()  
-[健康管理 - 心理咨询]()
 
 ### 6. 智能体工具市场上的同类产品
 [智谱清言](https://chatglm.cn/main/detail)  
@@ -107,11 +106,8 @@ lmdeploy serve api_server /root/internlm-demo/internlm2-chat-20b/workspace_w4a16
   
     `本次是小组成员探索实践，等Lagent课件与视屏出来后，可进一步优化`
 ---
-### 8. 特别鸣谢  
-- 上海人工智能实验室 A100算力支持
-- 书生·浦语大模型实战营
-- 浦语小助手
-- 银佳助教
+
+
 
 
 
